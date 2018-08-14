@@ -1,0 +1,11 @@
+C:\Users\Julio\Desktop\jsonNoCsharp\bin\Debug\netcoreapp2.1\jsonNoCsharp.deps.json
+C:\Users\Julio\Desktop\jsonNoCsharp\bin\Debug\netcoreapp2.1\jsonNoCsharp.runtimeconfig.json
+C:\Users\Julio\Desktop\jsonNoCsharp\bin\Debug\netcoreapp2.1\jsonNoCsharp.runtimeconfig.dev.json
+C:\Users\Julio\Desktop\jsonNoCsharp\bin\Debug\netcoreapp2.1\jsonNoCsharp.dll
+C:\Users\Julio\Desktop\jsonNoCsharp\bin\Debug\netcoreapp2.1\jsonNoCsharp.pdb
+C:\Users\Julio\Desktop\jsonNoCsharp\obj\Debug\netcoreapp2.1\jsonNoCsharp.csprojAssemblyReference.cache
+C:\Users\Julio\Desktop\jsonNoCsharp\obj\Debug\netcoreapp2.1\jsonNoCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Julio\Desktop\jsonNoCsharp\obj\Debug\netcoreapp2.1\jsonNoCsharp.AssemblyInfoInputs.cache
+C:\Users\Julio\Desktop\jsonNoCsharp\obj\Debug\netcoreapp2.1\jsonNoCsharp.AssemblyInfo.cs
+C:\Users\Julio\Desktop\jsonNoCsharp\obj\Debug\netcoreapp2.1\jsonNoCsharp.dll
+C:\Users\Julio\Desktop\jsonNoCsharp\obj\Debug\netcoreapp2.1\jsonNoCsharp.pdb
