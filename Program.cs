@@ -52,6 +52,7 @@ namespace jsonNoCsharp
             List<Funcionario> chineses = funcionarioCsharp.Where(x => x.pais.Equals("China")).ToList();
             List<Funcionario> mulheresChinesas = chineses.Where(x => x.genero.Equals("F")).ToList();
             List<Funcionario> ascSalarioMulherChinesa = mulheresChinesas.OrderBy(x => x.salario).ToList();
+            Console.WriteLine($"Mulher chinesa com o menor salário: ");
             Console.WriteLine($"Nome: {ascSalarioMulherChinesa.FirstOrDefault().nome}");
             Console.WriteLine($"Valor: {ascSalarioMulherChinesa.FirstOrDefault().salario}");
             // Console.ReadKey();
