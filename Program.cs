@@ -17,7 +17,7 @@ namespace jsonNoCsharp
             List<string> funcJson = new List<string>();
             List<Funcionario> funcionarioCsharp = new List<Funcionario>();
             Funcionario func = new Funcionario();
-            // Todos os atributos devem estar publicos na classe Funcionario
+            // Todos os atributos devem estar acessíveis na classe Funcionario
             func.id = "1";
             func.nome = "Julio";
             func.sobrenome = "de Oliveira Neto";

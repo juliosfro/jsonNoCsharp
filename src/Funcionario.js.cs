@@ -23,6 +23,7 @@ namespace jsonNoCsharp
             get { return this._id; }
             set { this._id = value; }
         }
+        
         public string nome
         {
             get { return this._nome; }
