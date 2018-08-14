@@ -16,7 +16,7 @@ namespace jsonNoCsharp
         private string _empresa { get; set; }
         private double _salario { get; set; }
 
-        // métodos getters e setters
+        // métodos getters e setters.
 
         public string id
         {
