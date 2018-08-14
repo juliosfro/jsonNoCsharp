@@ -32,6 +32,7 @@ namespace jsonNoCsharp
 
             string path = Directory.GetCurrentDirectory();
             StreamReader reader = new StreamReader(path + "//funcionarios.json");
+
             string linha = null;
             while ((linha = reader.ReadLine()) != null)
             {
@@ -50,11 +51,11 @@ namespace jsonNoCsharp
 
             // funcionarioCsharp.ForEach(x => Console.WriteLine(x.nome));
             List<Funcionario> chineses = funcionarioCsharp.Where(x => x.pais.Equals("China")).ToList();
-            List<Funcionario> mulheresChinesas = chineses.Where(x => x.genero.Equals("F")).ToList();
-            List<Funcionario> ascSalarioMulherChinesa = mulheresChinesas.OrderBy(x => x.salario).ToList();
+            List<Funcionario> generos = chineses.Where(x => x.genero.Equals("F")).ToList();
+            List<Funcionario> salarios = generos.OrderBy(x => x.salario).ToList();
+
             Console.WriteLine($"Mulher chinesa com o menor salário: ");
-            Console.WriteLine($"Nome: {ascSalarioMulherChinesa.FirstOrDefault().nome}");
-            Console.WriteLine($"Valor: {ascSalarioMulherChinesa.FirstOrDefault().salario}");
+            salarios.GetRange(index: 0, count: 1).ForEach((x => Console.WriteLine($"Id: {x.id}, Nome: {x.nome}, Salário: {x.salario}")));
             // Console.ReadKey();
         }
     }
